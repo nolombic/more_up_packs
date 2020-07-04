@@ -74,13 +74,15 @@ Put diamonds into the four corners of the crafting grid. Put a +20HP upgrade pac
 
 ### ![violet heart](https://creative.platerquack.net/development/more_up_packs/custom/violet_heart.png) +40HP  
 
+#### IF [mtg_plus](https://content.minetest.net/packages/Wuzzy/mtg_plus/) is used
+
 To craft a ![violet heart](https://creative.platerquack.net/development/more_up_packs/custom/violet_heart.png) +40HP upgrade pack, you'll need:  
 4 ![diamond block](https://creative.platerquack.net/development/more_up_packs/default/diamondblock.png) diamond blocks  
 2 ![mese block](https://creative.platerquack.net/development/more_up_packs/default/mese_block.png) mese blocks  
 2 ![obsidian brick](https://creative.platerquack.net/development/more_up_packs/default/obsidianbrick.png) obsidian bricks  
 1 ![blue heart](https://creative.platerquack.net/development/more_up_packs/custom/blue_heart.png) +30HP upgrade pack
 
-#### Arrange it like this:
+##### Arrange it like this:
 
 ![diamond block](https://creative.platerquack.net/development/more_up_packs/default/diamondblock.png) ![mese block](https://creative.platerquack.net/development/more_up_packs/default/mese_block.png) ![diamond block](https://creative.platerquack.net/development/more_up_packs/default/diamondblock.png)  
 ![obsidian brick](https://creative.platerquack.net/development/more_up_packs/default/obsidianbrick.png) ![blue heart](https://creative.platerquack.net/development/more_up_packs/custom/blue_heart.png) ![obsidian brick](https://creative.platerquack.net/development/more_up_packs/default/obsidianbrick.png)  
@@ -90,7 +92,27 @@ Put diamond blocks into the four corners of the crafting grid. Put a +30HP upgra
   
 ![violet heart](https://creative.platerquack.net/development/more_up_packs/custom/violet_heart.png)
 
+#### IF [mtg_plus](https://content.minetest.net/packages/Wuzzy/mtg_plus/) is NOT used
+
+To craft a ![violet heart](https://creative.platerquack.net/development/more_up_packs/custom/violet_heart.png) +40HP upgrade pack, you'll need:  
+4 ![diamond block](https://creative.platerquack.net/development/more_up_packs/default/diamondblock.png) diamond blocks  
+2 ![mese block](https://creative.platerquack.net/development/more_up_packs/default/mese_block.png) mese blocks  
+2 ![obsidian block](https://creative.platerquack.net/development/more_up_packs/default/obsidian_block.png) obsidian blocks  
+1 ![blue heart](https://creative.platerquack.net/development/more_up_packs/custom/blue_heart.png) +30HP upgrade pack
+
+##### Arrange it like this:
+
+![diamond block](https://creative.platerquack.net/development/more_up_packs/default/diamondblock.png) ![mese block](https://creative.platerquack.net/development/more_up_packs/default/mese_block.png) ![diamond block](https://creative.platerquack.net/development/more_up_packs/default/diamondblock.png)  
+![obsidian block](https://creative.platerquack.net/development/more_up_packs/default/obsidian_block_.png) ![blue heart](https://creative.platerquack.net/development/more_up_packs/custom/blue_heart.png) ![obsidian block](https://creative.platerquack.net/development/more_up_packs/default/obsidian_block_.png)  
+![diamond block](https://creative.platerquack.net/development/more_up_packs/default/diamondblock.png) ![mese block](https://creative.platerquack.net/development/more_up_packs/default/mese_block.png) ![diamond block](https://creative.platerquack.net/development/more_up_packs/default/diamondblock.png)  
+  
+Put diamond blocks into the four corners of the crafting grid. Put a +30HP upgrade pack into the middle spot. Fill in the rest of the horizontal axis with obsidian blocks and the rest of the vertical axis with mese blocks.  
+  
+![violet heart](https://creative.platerquack.net/development/more_up_packs/custom/violet_heart.png)
+
 ### ![golden heart](https://creative.platerquack.net/development/more_up_packs/custom/golden_heart.png) +50HP  
+
+#### IF [mtg_plus](https://content.minetest.net/packages/Wuzzy/mtg_plus/) is used
 
 To craft a ![golden heart](https://creative.platerquack.net/development/more_up_packs/custom/golden_heart.png) +50HP upgrade pack, you'll need:  
 4 ![aggregated diamond block](https://creative.platerquack.net/development/more_up_packs/mtg_plus/harddiamondblock.png) aggregated diamond blocks (from [the mtg_plus mod by Wuzzy](https://content.minetest.net/packages/Wuzzy/mtg_plus/ "Link to the mtg:plus minetest ContentDB site"))  
@@ -98,13 +120,31 @@ To craft a ![golden heart](https://creative.platerquack.net/development/more_up_
 2 ![gold-framed obsidian brick](https://creative.platerquack.net/development/more_up_packs/mtg_plus/obsidianbrick_gold.png) gold-framed obsidian bricks (from [the mtg_plus mod by Wuzzy](https://content.minetest.net/packages/Wuzzy/mtg_plus/ "Link to the mtg:plus minetest ContentDB site"))  
 1 ![violet heart](https://creative.platerquack.net/development/more_up_packs/custom/violet_heart.png) +40HP upgrade pack
 
-#### Arrange it like this:
+##### Arrange it like this:
 
 ![aggregated diamond block](https://creative.platerquack.net/development/more_up_packs/mtg_plus/harddiamondblock.png) ![mese block](https://creative.platerquack.net/development/more_up_packs/default/mese_block.png) ![aggregated diamond block](https://creative.platerquack.net/development/more_up_packs/mtg_plus/harddiamondblock.png)  
 ![gold-framed obsidian brick](https://creative.platerquack.net/development/more_up_packs/mtg_plus/obsidianbrick_gold.png) ![violet heart](https://creative.platerquack.net/development/more_up_packs/custom/violet_heart.png) ![gold-framed obsidian brick](https://creative.platerquack.net/development/more_up_packs/mtg_plus/obsidianbrick_gold.png)  
 ![aggregated diamond block](https://creative.platerquack.net/development/more_up_packs/mtg_plus/harddiamondblock.png) ![mese block](https://creative.platerquack.net/development/more_up_packs/default/mese_block.png) ![aggregated diamond block](https://creative.platerquack.net/development/more_up_packs/mtg_plus/harddiamondblock.png)  
   
 Put aggregated diamond blocks into the four corners of the crafting grid. Put a +40HP upgrade pack into the middle spot. Fill in the rest of the horizontal axis with gold-framed obsidian bricks and the rest of the vertical axis with mese blocks.  
+  
+![golden heart](https://creative.platerquack.net/development/more_up_packs/custom/golden_heart.png)
+
+#### IF [mtg_plus](https://content.minetest.net/packages/Wuzzy/mtg_plus/) is NOT used
+
+To craft a ![golden heart](https://creative.platerquack.net/development/more_up_packs/custom/golden_heart.png) +50HP upgrade pack, you'll need:  
+4 ![diamond block](https://creative.platerquack.net/development/more_up_packs/default/diamondblock.png) diamond blocks  
+2 ![mese block](https://creative.platerquack.net/development/more_up_packs/default/mese_block.png) mese blocks  
+2 ![obsidian brick](https://creative.platerquack.net/development/more_up_packs/default/obsidianbrick.png) obsidian bricks  
+1 ![violet heart](https://creative.platerquack.net/development/more_up_packs/custom/violet_heart.png) +40HP upgrade pack
+
+##### Arrange it like this:
+
+![mese block](https://creative.platerquack.net/development/more_up_packs/default/mese_block.png) ![diamond block](https://creative.platerquack.net/development/more_up_packs/default/diamondblock.png) ![mese block](https://creative.platerquack.net/development/more_up_packs/default/mese_block.png)  
+![obsidian brick](https://creative.platerquack.net/development/more_up_packs/default/obsidianbrick.png) ![violet heart](https://creative.platerquack.net/development/more_up_packs/custom/violet_heart.png) ![obsidian brick](https://creative.platerquack.net/development/more_up_packs/default/obsidianbrick.png)  
+![diamond block](https://creative.platerquack.net/development/more_up_packs/default/diamondblock.png) ![mese block](https://creative.platerquack.net/development/more_up_packs/default/mese_block.png) ![diamond block](https://creative.platerquack.net/development/more_up_packs/default/diamondblock.png)
+  
+Put mese blocks into the top left and top right as well as the lower center of the crafting grid. Do the same with diamond blocks, but mirrored; lower left and right and upper center. Place a +40HP upgrade pack into the center. Fill in the rest with obsidian bricks.  
   
 ![golden heart](https://creative.platerquack.net/development/more_up_packs/custom/golden_heart.png)
 
@@ -149,8 +189,8 @@ Installation of a mod must not be hard. Simply head into your minetest 5.0+ game
 ### [upgrade_packs](https://content.minetest.net/packages/Krock/upgrade_packs/)
 the base that brings the core functionality. Must-have for this mod.  
 ### [mtg_plus](https://content.minetest.net/packages/Wuzzy/mtg_plus/)
-used for the +50HP upgrade pack. Will be optional in the future. Currently a must-have for this mod.  
-### more_up_packs
+optionally used for the +50HP upgrade pack to make it harder to craft.  
+### [more_up_packs](https://content.minetest.net/packages/nolombic/more_up_packs/)
 this mod.  
 
 ### Make sure the mods are enabled on your world! Otherwise they won't do anything but sit around unused.

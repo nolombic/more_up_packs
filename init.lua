@@ -1,4 +1,4 @@
-local imgpath = minetest and minetest.get_modpath("more_up_packs") or "."
+--[[more_up_packs by nolombic]]--
 
 upgrade_packs.register_pack("more_up_packs:hp_20", "health", {
 	description = "+20 HP",
@@ -38,43 +38,87 @@ minetest.register_craft({
 	}
 })
 
-upgrade_packs.register_pack("more_up_packs:hp_40", "health", {
-	description = "+40 HP",
-	strength = 40,
-	image = "violet_heart.png"
-})
+if minetest.get_modpath("mtg_plus") then
 
-local mb = "default:mese"
-local db = "default:diamondblock"
-local oc = "default:obsidianbrick"
-local h3 = "more_up_packs:hp_30"
-minetest.register_craft({
-	output = "more_up_packs:hp_40",
-	recipe = {
-		{db, mb, db},
-		{oc, h3, oc},
-		{db, mb, db}
-	}
-})
+	upgrade_packs.register_pack("more_up_packs:hp_40", "health", {
+		description = "+40 HP",
+		strength = 40,
+		image = "violet_heart.png"
+	})
 
-upgrade_packs.register_pack("more_up_packs:hp_50", "health", {
-	description = "+50 HP",
-	strength = 50,
-	image = "golden_heart.png"
-})
+	local mb = "default:mese"
+	local db = "default:diamondblock"
+	local oc = "default:obsidianbrick"
+	local h3 = "more_up_packs:hp_30"
+	minetest.register_craft({
+		output = "more_up_packs:hp_40",
+		recipe = {
+			{db, mb, db},
+			{oc, h3, oc},
+			{db, mb, db}
+		}
+	})
 
-local mb = "default:mese"
-local hd = "mtg_plus:harddiamondblock"
-local h4 = "more_up_packs:hp_40"
-local br = "mtg_plus:obsidianbrick_gold"
-minetest.register_craft({
-	output = "more_up_packs:hp_50",
-	recipe = {
-		{hd, mb, hd},
-		{br, h4, br},
-		{hd, mb, hd}
-	}
-})
+	upgrade_packs.register_pack("more_up_packs:hp_50", "health", {
+		description = "+50 HP",
+		strength = 50,
+		image = "golden_heart.png"
+	})
+
+	local mb = "default:mese"
+	local hd = "mtg_plus:harddiamondblock"
+	local h4 = "more_up_packs:hp_40"
+	local br = "mtg_plus:obsidianbrick_gold"
+	minetest.register_craft({
+		output = "more_up_packs:hp_50",
+		recipe = {
+			{hd, mb, hd},
+			{br, h4, br},
+			{hd, mb, hd}
+		}
+	})
+
+else
+
+	upgrade_packs.register_pack("more_up_packs:hp_40", "health", {
+		description = "+40 HP",
+		strength = 40,
+		image = "violet_heart.png"
+	})
+
+	local mb = "default:mese"
+	local db = "default:diamondblock"
+	local oc = "default:obsidian_block"
+	local h3 = "more_up_packs:hp_30"
+	minetest.register_craft({
+		output = "more_up_packs:hp_40",
+		recipe = {
+			{db, mb, db},
+			{oc, h3, oc},
+			{db, mb, db}
+		}
+	})
+
+	upgrade_packs.register_pack("more_up_packs:hp_50", "health", {
+		description = "+50 HP",
+		strength = 50,
+		image = "golden_heart.png"
+	})
+
+	local mb = "default:mese"
+	local db = "default:diamondblock"
+	local h4 = "more_up_packs:hp_40"
+	local br = "default:obsidianbrick"
+	minetest.register_craft({
+		output = "more_up_packs:hp_50",
+		recipe = {
+			{mb, db, mb},
+			{br, h4, br},
+			{db, mb, db}
+		}
+	})
+
+end
 
 upgrade_packs.register_pack("more_up_packs:breath_10", "breath", {
 	description = "+10 Breath",
