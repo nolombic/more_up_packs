@@ -64,15 +64,15 @@ upgrade_packs.register_pack("more_up_packs:hp_50", "health", {
 })
 
 local mb = "default:mese"
-local gd = "mtg_plus:gold_diamond_block"
+local hd = "mtg_plus:harddiamondblock"
 local h4 = "more_up_packs:hp_40"
 local br = "mtg_plus:obsidianbrick_gold"
 minetest.register_craft({
 	output = "more_up_packs:hp_50",
 	recipe = {
-		{gd, mb, gd},
+		{hd, mb, hd},
 		{br, h4, br},
-		{gd, mb, gd}
+		{hd, mb, hd}
 	}
 })
 
