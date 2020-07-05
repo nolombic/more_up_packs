@@ -14,8 +14,8 @@ minetest.register_craft({
 	output = "more_up_packs:hp_20",
 	recipe = {
 		{gi, mc, gi},
-		{mc, h1, mc},
-		{gi, oh, gi}
+		{oh, h1, oh},
+		{gi, mc, gi}
 	}
 })
 
@@ -67,8 +67,8 @@ if minetest.get_modpath("mtg_plus") then
 
 	local mb = "default:mese"
 	local hd = "mtg_plus:harddiamondblock"
-	local h4 = "more_up_packs:hp_40"
 	local br = "mtg_plus:obsidianbrick_gold"
+	local h4 = "more_up_packs:hp_40"
 	minetest.register_craft({
 		output = "more_up_packs:hp_50",
 		recipe = {
@@ -107,8 +107,8 @@ else
 
 	local mb = "default:mese"
 	local db = "default:diamondblock"
-	local h4 = "more_up_packs:hp_40"
 	local br = "default:obsidianbrick"
+	local h4 = "more_up_packs:hp_40"
 	minetest.register_craft({
 		output = "more_up_packs:hp_50",
 		recipe = {
@@ -123,17 +123,55 @@ end
 upgrade_packs.register_pack("more_up_packs:breath_10", "breath", {
 	description = "+10 Breath",
 	strength = 10,
-	image = "golden_bubble.png"
+	image = "violet_bubble.png"
 })
 
 local mc = "default:mese_crystal"
-local b1 = "upgrade_packs:breath_5"
 local bi = "default:bronze_ingot"
+local b1 = "upgrade_packs:breath_5"
 minetest.register_craft({
 	output = "more_up_packs:breath_10",
 	recipe = {
 		{bi, mc, bi},
 		{mc, b1, mc},
 		{bi, mc, bi}
+	}
+})
+
+upgrade_packs.register_pack("more_up_packs:breath_15", "breath", {
+	description = "+15 Breath",
+	strength = 15,
+	image = "pink_bubble.png"
+})
+
+local mc = "default:mese_crystal"
+local oh = "default:obsidian_shard"
+local si = "default:steel_ingot"
+local b2 = "more_up_packs:breath_10"
+minetest.register_craft({
+	output = "more_up_packs:breath_15",
+	recipe = {
+		{si, oh, si},
+		{mc, b2, mc},
+		{si, oh, si}
+	}
+})
+
+upgrade_packs.register_pack("more_up_packs:breath_20", "breath", {
+	description = "+20 Breath",
+	strength = 20,
+	image = "golden_bubble.png"
+})
+
+local mc = "default:mese_crystal"
+local oh = "default:obsidian_shard"
+local di = "default:diamond"
+local b3 = "more_up_packs:breath_15"
+minetest.register_craft({
+	output = "more_up_packs:breath_20",
+	recipe = {
+		{oh, di, oh},
+		{mc, b3, mc},
+		{oh, di, oh}
 	}
 })
