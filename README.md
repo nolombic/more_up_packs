@@ -1,5 +1,5 @@
 # more_up_packs 
-This mod lets you upgrade your upgrade packs, allowing you to have even higher stats.  
+Upgrade your upgrade packs so you can have even higher stats!  
 Affected stats are health and breath.  
 
 ## Higher stats, whaaaa?
@@ -219,6 +219,35 @@ To craft a ![golden bubble](https://creative.platerquack.net/development/more_up
 Put obsidian shards into the four corners of the crafting grid. Put a +15 Breath upgrade pack into the middle spot. Place diamonds aboe and below it. Fill in the sides with mese crystals.  
   
 ![golden bubble](https://creative.platerquack.net/development/more_up_packs/custom/golden_bubble.png)
+
+## They're even translated into ***some*** languages
+
+Translations currently cover these languages:
+
+### English ²
+### German ²
+### Dutch ¹ ² ³
+### French ¹ ⁴
+### Spanish ¹ ² ⁴
+
+¹ using [Deepl](https://deepl.com/translator)  
+² from previous knowledge like classes or culture  
+³ derived from similarities with other languages, e.g. German and Dutch  
+⁴ with outside help
+
+### Translation template (in case you want to help)
+
+File name: `more_up_packs.[??].tr`  
+```
+# textdomain: more_up_packs  
+  
+HP =  
+Breath =  
+More Upgrade Packs =  
+Upgrade your upgrade packs so you can have even higher stats! =  
+```  
+Fill in `[??]` with your ISO language code.
+For example: `more_up_packs.nl.tr` or `more_up_packs.de.tr`
 
 ## Last but not least: Installation and dependencies
 
