@@ -1,0 +1,5 @@
+# textdomain:more_up_packs
+HP=
+Breath=
+More Upgrade Packs=
+Upgrade your upgrade packs so you can have even higher stats!=
