@@ -1,5 +1,15 @@
 # textdomain:more_up_packs
 HP=
 Breath=
+Craft a @1 @2 Upgrade Pack.=
+Rejuvination=
+Prolonged Life=
+Fountain of Life=
+Approaching Invincibility=
+Cheating Death=
+Breating in Deeply=
+Becoming Amphibious=
+Growing Gills=
+Underwater Breathing=
 More Upgrade Packs=
 Upgrade your upgrade packs so you can have even higher stats!=

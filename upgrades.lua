@@ -1,7 +1,7 @@
 --[[more_up_packs by nolombic]]--
 
 upgrade_packs.register_pack("more_up_packs:hp_20", "health", {
-	description = "+20 " .. mup.str[1],
+	description = "+20 " .. mup.str.hpb[1],
 	strength = 20,
 	image = "green_heart.png"
 })
@@ -20,7 +20,7 @@ minetest.register_craft({
 })
 
 upgrade_packs.register_pack("more_up_packs:hp_30", "health", {
-	description = "+30 " .. mup.str[1],
+	description = "+30 " .. mup.str.hpb[1],
 	strength = 30,
 	image = "blue_heart.png"
 })
@@ -41,7 +41,7 @@ minetest.register_craft({
 if minetest.get_modpath("mtg_plus") then
 
 	upgrade_packs.register_pack("more_up_packs:hp_40", "health", {
-		description = "+40 " .. mup.str[1],
+		description = "+40 " .. mup.str.hpb[1],
 		strength = 40,
 		image = "violet_heart.png"
 	})
@@ -60,7 +60,7 @@ if minetest.get_modpath("mtg_plus") then
 	})
 
 	upgrade_packs.register_pack("more_up_packs:hp_50", "health", {
-		description = "+50 " .. mup.str[1],
+		description = "+50 " .. mup.str.hpb[1],
 		strength = 50,
 		image = "golden_heart.png"
 	})
@@ -81,7 +81,7 @@ if minetest.get_modpath("mtg_plus") then
 else
 
 	upgrade_packs.register_pack("more_up_packs:hp_40", "health", {
-		description = "+40 " .. mup.str[1],
+		description = "+40 " .. mup.str.hpb[1],
 		strength = 40,
 		image = "violet_heart.png"
 	})
@@ -100,7 +100,7 @@ else
 	})
 
 	upgrade_packs.register_pack("more_up_packs:hp_50", "health", {
-		description = "+50 " .. mup.str[1],
+		description = "+50 " .. mup.str.hpb[1],
 		strength = 50,
 		image = "golden_heart.png"
 	})
@@ -121,7 +121,7 @@ else
 end
 
 upgrade_packs.register_pack("more_up_packs:breath_10", "breath", {
-	description = "+10 " .. mup.str[2],
+	description = "+10 " .. mup.str.hpb[2],
 	strength = 10,
 	image = "violet_bubble.png"
 })
@@ -139,7 +139,7 @@ minetest.register_craft({
 })
 
 upgrade_packs.register_pack("more_up_packs:breath_15", "breath", {
-	description = "+15 " .. mup.str[2],
+	description = "+15 " .. mup.str.hpb[2],
 	strength = 15,
 	image = "pink_bubble.png"
 })
@@ -158,7 +158,7 @@ minetest.register_craft({
 })
 
 upgrade_packs.register_pack("more_up_packs:breath_20", "breath", {
-	description = "+20 " .. mup.str[2],
+	description = "+20 " .. mup.str.hpb[2],
 	strength = 20,
 	image = "golden_bubble.png"
 })
